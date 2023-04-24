@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5AA7AB4329F66E1800143A69 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB4229F66E1800143A69 /* main.swift */; };
+		5AA7AB4A29F66E6E00143A69 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB4929F66E6D00143A69 /* Student.swift */; };
+		5AA7AB4C29F66EE900143A69 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB4B29F66EE800143A69 /* Course.swift */; };
+		5AA7AB5129F6727900143A69 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB5029F6727900143A69 /* Home.swift */; };
+		5AA7AB5329F675F400143A69 /* AddStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB5229F675F400143A69 /* AddStudent.swift */; };
+		5AA7AB5529F67BE100143A69 /* DeleteStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB5429F67BE100143A69 /* DeleteStudent.swift */; };
+		5AA7AB5729F67CDB00143A69 /* ModifyCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB5629F67CDB00143A69 /* ModifyCourse.swift */; };
+		5AA7AB5929F6816600143A69 /* DeleteCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB5829F6816600143A69 /* DeleteCourse.swift */; };
+		5AA7AB5B29F682C800143A69 /* ShowCourseAvg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA7AB5A29F682C800143A69 /* ShowCourseAvg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +33,14 @@
 /* Begin PBXFileReference section */
 		5AA7AB3F29F66E1800143A69 /* MyCreditManager */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyCreditManager; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA7AB4229F66E1800143A69 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5AA7AB4929F66E6D00143A69 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		5AA7AB4B29F66EE800143A69 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		5AA7AB5029F6727900143A69 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		5AA7AB5229F675F400143A69 /* AddStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudent.swift; sourceTree = "<group>"; };
+		5AA7AB5429F67BE100143A69 /* DeleteStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteStudent.swift; sourceTree = "<group>"; };
+		5AA7AB5629F67CDB00143A69 /* ModifyCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyCourse.swift; sourceTree = "<group>"; };
+		5AA7AB5829F6816600143A69 /* DeleteCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteCourse.swift; sourceTree = "<group>"; };
+		5AA7AB5A29F682C800143A69 /* ShowCourseAvg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCourseAvg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +74,24 @@
 			isa = PBXGroup;
 			children = (
 				5AA7AB4229F66E1800143A69 /* main.swift */,
+				5AA7AB4D29F66FB800143A69 /* Model */,
+				5AA7AB5029F6727900143A69 /* Home.swift */,
+				5AA7AB5229F675F400143A69 /* AddStudent.swift */,
+				5AA7AB5429F67BE100143A69 /* DeleteStudent.swift */,
+				5AA7AB5629F67CDB00143A69 /* ModifyCourse.swift */,
+				5AA7AB5829F6816600143A69 /* DeleteCourse.swift */,
+				5AA7AB5A29F682C800143A69 /* ShowCourseAvg.swift */,
 			);
 			path = MyCreditManager;
+			sourceTree = "<group>";
+		};
+		5AA7AB4D29F66FB800143A69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AA7AB4929F66E6D00143A69 /* Student.swift */,
+				5AA7AB4B29F66EE800143A69 /* Course.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +152,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA7AB5529F67BE100143A69 /* DeleteStudent.swift in Sources */,
+				5AA7AB5929F6816600143A69 /* DeleteCourse.swift in Sources */,
+				5AA7AB4C29F66EE900143A69 /* Course.swift in Sources */,
 				5AA7AB4329F66E1800143A69 /* main.swift in Sources */,
+				5AA7AB5129F6727900143A69 /* Home.swift in Sources */,
+				5AA7AB5729F67CDB00143A69 /* ModifyCourse.swift in Sources */,
+				5AA7AB5B29F682C800143A69 /* ShowCourseAvg.swift in Sources */,
+				5AA7AB4A29F66E6E00143A69 /* Student.swift in Sources */,
+				5AA7AB5329F675F400143A69 /* AddStudent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

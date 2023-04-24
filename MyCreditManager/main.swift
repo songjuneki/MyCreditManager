@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+var students: [Student] = []
 
+Home(students: &students)
